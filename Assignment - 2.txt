@@ -1,0 +1,95 @@
+Q1 Which of the following are real constants?
+3, ‘A’, 4.5, 3.0, ‘+’, -25, -0.0
+Ans. 4.5, 3.0, -25, -0.0
+
+
+
+
+
+Q2 Which of the following are not keywords in C Language?
+auto, dynamic, static, typedef, define, enum, is, default, this, super
+Ans. The keywords in C language among the given options are:
+
+auto
+static
+typedef
+define
+enum
+default
+
+The following options are not keywords in C language:
+
+dynamic
+is
+this
+super
+
+Note: "is", "this", and "super" are not keywords in the C language. They may be used as identifiers, but they do not have any special meaning in the language.
+
+
+
+
+
+Q3 Which of the following is not a valid variable name in C language?
+auto, dynamic, static, typedef, define, enum, is, default, this, super
+Ans. The variable name "define" is not a valid variable name in the C language. It is because "define" is a keyword used for preprocessor directives in C, such as defining constants using the #define directive. Variable names cannot be the same as keywords in the C language.
+
+
+
+
+
+Q4 Can we make a variable with the name switch? (Yes/No)
+Ans. No, we cannot make a variable with the name "switch" in C language. "switch" is a reserved keyword in C used for switch statements. Keywords are predefined and reserved by the language, so they cannot be used as variable names.
+
+
+
+
+
+Q5 Keywords are defined in the compiler or their meaning is stored in the library?
+Ans. Keywords in programming languages, including C, are defined in the compiler itself. They are part of the language's syntax and are recognized by the compiler during the compilation process. The compiler has built-in knowledge of these keywords and treats them as special tokens with specific meanings and functionalities.
+
+The meanings and behaviors associated with keywords are defined by the language specification and implemented in the compiler. The compiler uses this information to parse and interpret the code correctly. Keywords are not typically stored in libraries because their handling is integral to the language itself.
+
+
+
+
+
+Q6. Where variables are created? (RAM, ROM, Secondary storage or CPU)
+Ans. Variables in programming languages like C are created in the computer's Random Access Memory (RAM). RAM is a volatile form of memory that provides fast access to data during program execution.
+
+When a program is executed, variables are allocated memory in the RAM to store their values. The size of the memory allocated for a variable depends on its data type. Variables in RAM can be accessed and manipulated by the CPU during program execution.
+
+It's important to note that variables and their values are temporary and exist only during the runtime of the program. Once the program terminates or the variable goes out of scope, the memory allocated to the variables is released and can be used for other purposes.
+
+
+
+
+
+Q7 Who developed C language?
+Ans Dennis Ritchie
+
+
+
+
+
+Q8 When was the C language developed?
+Ans. 1972
+
+
+
+
+
+Q9 What is the name of the operating system which is responsible for the inception of the C language?
+Ans UNIX
+
+
+
+
+
+
+Q10 Whether C is a high level language or low level language?
+Ans C is considered a high-level programming language. High-level languages are designed to be more human-readable and user-friendly, providing abstractions and constructs that are closer to natural language and allowing programmers to focus on solving problems rather than dealing with low-level details.
+
+C, although considered high-level, is often referred to as a "middle-level" language because it offers a balance between high-level and low-level programming. It provides constructs and features that allow programmers to write efficient and low-level code when needed, such as direct memory manipulation and bitwise operations. This flexibility makes C suitable for systems programming, embedded systems, and performance-critical applications.
+
+However, compared to low-level languages like assembly language, C abstracts away many hardware-specific details and provides higher-level constructs such as functions, structures, and libraries, making it easier to write and maintain code.
